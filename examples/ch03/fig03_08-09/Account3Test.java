@@ -1,11 +1,11 @@
-// Fig. 3.9: AccountTest.java
-// Inputting and outputting floating-point numbers with Account objects.
+// Fig. 3.9: Account2Test.java
+// Inputting and outputting floating-point numbers with Account2 objects.
 import java.util.Scanner;
 
-public class AccountTest {
+public class Account3Test {
    public static void main(String[] args) {
-      Account account1 = new Account("Jane Green", 50.00);
-      Account account2 = new Account("John Blue", -7.53); 
+      Account3 account1 = new Account3("Jane Green", 50.00);
+      Account3 account2 = new Account3("John Blue", -7.53);
 
       // display initial balance of each object
       System.out.printf("%s balance: $%.2f%n",
@@ -42,17 +42,3 @@ public class AccountTest {
    } 
 } 
 
-/**************************************************************************
- * (C) Copyright 1992-2018 by Deitel & Associates, Inc. and               *
- * Pearson Education, Inc. All Rights Reserved.                           *
- *                                                                        *
- * DISCLAIMER: The authors and publisher of this book have used their     *
- * best efforts in preparing the book. These efforts include the          *
- * development, research, and testing of the theories and programs        *
- * to determine their effectiveness. The authors and publisher make       *
- * no warranty of any kind, expressed or implied, with regard to these    *
- * programs or to the documentation contained in these books. The authors *
- * and publisher shall not be liable in any event for incidental or       *
- * consequential damages in connection with, or arising out of, the       *
- * furnishing, performance, or use of these programs.                     *
- *************************************************************************/

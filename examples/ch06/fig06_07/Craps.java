@@ -7,9 +7,9 @@ public class Craps {
    private static final SecureRandom randomNumbers = new SecureRandom();
 
    // enum type with constants that represent the game status
-   private enum Status {CONTINUE, WON, LOST};                
+   private enum Status {CONTINUE, WON, LOST}
 
-   // constants that represent common rolls of the dice
+    // constants that represent common rolls of the dice
    private static final int SNAKE_EYES = 2;
    private static final int TREY = 3;      
    private static final int SEVEN = 7;     
@@ -79,19 +79,3 @@ public class Craps {
       return sum; 
    } 
 } 
-
-
-/**************************************************************************
- * (C) Copyright 1992-2018 by Deitel & Associates, Inc. and               *
- * Pearson Education, Inc. All Rights Reserved.                           *
- *                                                                        *
- * DISCLAIMER: The authors and publisher of this book have used their     *
- * best efforts in preparing the book. These efforts include the          *
- * development, research, and testing of the theories and programs        *
- * to determine their effectiveness. The authors and publisher make       *
- * no warranty of any kind, expressed or implied, with regard to these    *
- * programs or to the documentation contained in these books. The authors *
- * and publisher shall not be liable in any event for incidental or       *
- * consequential damages in connection with, or arising out of, the       *
- * furnishing, performance, or use of these programs.                     *
- *************************************************************************/
