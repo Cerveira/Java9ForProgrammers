@@ -44,8 +44,8 @@ public class BitShift {
          } 
 
          // display input integer and result in bits
-         BitRepresentation.display(input); 
-         BitRepresentation.display(result);
+         BitRepresentation2.display(input);
+         BitRepresentation2.display(result);
       }
    }
 }

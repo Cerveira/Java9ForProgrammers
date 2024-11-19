@@ -7,4 +7,5 @@
 module module1 {
 //   exports package1;
    requires module2;
+    requires kotlin.stdlib;
 }

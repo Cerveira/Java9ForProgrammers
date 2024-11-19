@@ -1,7 +1,7 @@
-// Fig. 7.21: InitArray.java
+// Fig. 7.21: InitArray2.java
 // Initializing an array using command-line arguments.
 
-public class InitArray {
+public class InitArray5 {
    public static void main(String[] args) {
       // check number of command-line arguments 
       if (args.length != 3) {

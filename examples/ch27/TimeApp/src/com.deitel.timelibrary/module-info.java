@@ -1,7 +1,8 @@
 // Fig. 27.12: module-info.java
 // Module declaration for the com.deitel.timelibrary module
 module com.deitel.timelibrary {
-   exports com.deitel.timelibrary; // package available to other modules
+    requires kotlin.stdlib;
+    exports com.deitel.timelibrary; // package available to other modules
 }
 
 

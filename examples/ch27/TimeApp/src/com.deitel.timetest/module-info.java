@@ -2,6 +2,7 @@
 // Module declaration for the com.deitel.timetest module
 module com.deitel.timetest {
    requires com.deitel.timelibrary;
+    requires kotlin.stdlib;
 }
 
 

@@ -23,43 +23,43 @@ public class MiscBitOps {
             case 1: // AND
                System.out.print("Please enter two integers:");
                first = scanner.nextInt(); // get first input integer
-               BitRepresentation.display(first); 
+               BitRepresentation2.display(first);
                second = scanner.nextInt(); // get second input integer
-               BitRepresentation.display(second); 
+               BitRepresentation2.display(second);
                result = first & second; // perform bitwise AND
                System.out.printf(
                   "\n\n%d & %d = %d", first, second, result);
-               BitRepresentation.display(result); 
+               BitRepresentation2.display(result);
                break;
             case 2: // Inclusive OR
                System.out.print("Please enter two integers:");
                first = scanner.nextInt(); // get first input integer
-               BitRepresentation.display(first); 
+               BitRepresentation2.display(first);
                second = scanner.nextInt(); // get second input integer
-               BitRepresentation.display(second); 
+               BitRepresentation2.display(second);
                result = first | second; // perform bitwise inclusive OR
                System.out.printf(
                   "\n\n%d | %d = %d", first, second, result);
-               BitRepresentation.display(result); 
+               BitRepresentation2.display(result);
                break;
             case 3: // Exclusive OR
                System.out.print("Please enter two integers:");
                first = scanner.nextInt(); // get first input integer
-               BitRepresentation.display(first); 
+               BitRepresentation2.display(first);
                second = scanner.nextInt(); // get second input integer
-               BitRepresentation.display(second); 
+               BitRepresentation2.display(second);
                result = first ^ second; // perform bitwise exclusive OR
                System.out.printf(
                   "\n\n%d ^ %d = %d", first, second, result); 
-               BitRepresentation.display(result);
+               BitRepresentation2.display(result);
                break;
             case 4: // Complement
                System.out.print("Please enter one integer:");
                first = scanner.nextInt(); // get input integer
-               BitRepresentation.display(first); 
+               BitRepresentation2.display(first);
                result = ~first; // perform bitwise complement on first
                System.out.printf("\n\n~%d = %d", first, result);
-               BitRepresentation.display(result); 
+               BitRepresentation2.display(result);
                break;
             case 5: default: 
                System.exit(0); // exit application

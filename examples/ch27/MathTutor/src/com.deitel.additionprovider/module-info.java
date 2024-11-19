@@ -2,8 +2,9 @@
 // Module declaration for the com.deitel.additionprovider module
 module com.deitel.additionprovider {
    requires com.deitel.mathtutor;
+    requires kotlin.stdlib;
 
-   provides com.deitel.mathtutor.spi.ProblemProvider 
+    provides com.deitel.mathtutor.spi.ProblemProvider
       with com.deitel.additionprovider.AdditionProblemProvider; 
 }
 

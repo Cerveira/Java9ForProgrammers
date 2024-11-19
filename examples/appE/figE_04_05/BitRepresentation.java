@@ -1,4 +1,4 @@
-// Fig E.5: BitRepresentation.java
+// Fig E.5: BitRepresentation2.java
 // Utility class that displays bit representation of an integer.
 
 public class BitRepresentation {

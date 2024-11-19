@@ -1,7 +1,7 @@
-// Fig. 7.17: InitArray.java
+// Fig. 7.17: InitArray2.java
 // Initializing two-dimensional arrays.
 
-public class InitArray {
+public class InitArray4 {
    // create and output two-dimensional arrays
    public static void main(String[] args) {
       int[][] array1 = {{1, 2, 3}, {4, 5, 6}};  

@@ -2,8 +2,9 @@
 // Module declaration for the com.deitel.multiplicationprovider module
 module com.deitel.multiplicationprovider {
    requires com.deitel.mathtutor;
+    requires kotlin.stdlib;
 
-   provides com.deitel.mathtutor.spi.ProblemProvider with 
+    provides com.deitel.mathtutor.spi.ProblemProvider with
       com.deitel.multiplicationprovider.MultiplicationProblemProvider; 
 }
 

@@ -13,4 +13,3 @@ public class Account2Test {
       System.out.printf("account2 name is: %s%n", account2.getName());
    } 
 }
-

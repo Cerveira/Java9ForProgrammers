@@ -1,25 +1,27 @@
-// Fig. 7.4: InitArray.java
-// Calculating the values to be placed into the elements of an array.
+// Fig E.5: BitRepresentation2.java
+// Utility class that displays bit representation of an integer.
 
-public class InitArray {
-   public static void main(String[] args) {
-      final int ARRAY_LENGTH = 10; // declare constant    
-      int[] array = new int[ARRAY_LENGTH]; // create array
+public class BitRepresentation2 {
+   // display bit representation of specified int value
+   public static void display(int value) {
+      System.out.printf("\nBit representation of %d is: \n", value);
 
-      // calculate value for each array element
-      for (int counter = 0; counter < array.length; counter++) {
-         array[counter] = 2 + 2 * counter;
-      }
+      // create int value with 1 in leftmost bit and 0s elsewhere
+      int displayMask = 1 << 31;
 
-      System.out.printf("%s%8s%n", "Index", "Value"); // column headings
-   
-      // output each array element's value 
-      for (int counter = 0; counter < array.length; counter++) {
-         System.out.printf("%5d%8d%n", counter, array[counter]);
+      // for each bit display 0 or 1 
+      for (int bit = 1; bit <= 32; bit++) {
+         // use displayMask to isolate bit
+         System.out.print((value & displayMask) == 0 ? '0' : '1');
+
+         value <<= 1; // shift value one position to left 
+
+         if (bit % 8 == 0) {
+            System.out.print(' '); // display space every 8 bits
+         } 
       } 
    } 
 } 
-
 
 /**************************************************************************
  * (C) Copyright 1992-2018 by Deitel & Associates, Inc. and               *
@@ -35,3 +37,4 @@ public class InitArray {
  * consequential damages in connection with, or arising out of, the       *
  * furnishing, performance, or use of these programs.                     *
  *************************************************************************/
+

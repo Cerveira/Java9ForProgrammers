@@ -1,7 +1,8 @@
 // Fig. 27.29: module-info.java
 // Module declaration for the com.deitel.mathtutor module
 module com.deitel.mathtutor {
-   exports com.deitel.mathtutor.spi; // package for provider interface
+    requires kotlin.stdlib;
+    exports com.deitel.mathtutor.spi; // package for provider interface
 
    uses com.deitel.mathtutor.spi.ProblemProvider; 
 }
